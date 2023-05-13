@@ -1,14 +1,51 @@
 /*
  * Globals
+
+Dark pink: #e06c9f;
+tan: #edbfb7;
+grey: #b6b6b6;
+light green: #b5bfa1;
+dark green: #608475;
+
  */
 
+:root {
+  --pink: #f283b6;
+  --darkpink: #e06c9f;
+  --tan: #edbfb7;
+  --grey: #b6b6b6;
+  --lightgreen: #b5bfa1;
+  --darkgreen: #608475;
+  --bs-primary: #f283b6;
+}
 
+
+
+a{
+  color:var(--tan);
+}
+a:hover{
+  color: var(--pink);
+}
+
+.main-body{
+  background-color: var(--darkgreen);
+}
 /* Custom default button */
-.btn-secondary,
-.btn-secondary:hover,
-.btn-secondary:focus {
-  color: #333;
+
+.btn-primary, .btn-primary:hover, .btn-primary:focus, .btn-primary:active{
+  color: white;
+  background-color: var(--pink);
+  border: none;
   text-shadow: none; /* Prevent inheritance from `body` */
+
+  --bs-btn-bg: var(--pink);
+  --bs-btn-border: none;
+  --bs-btn-active-bg: var(--pink);
+}
+
+a.button{
+  color: white;
 }
 
 .footer{
