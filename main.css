@@ -20,6 +20,15 @@ dark green: #608475;
 }
 
 
+hr {
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border: 0;
+  max-width: 50%;
+  text-align: center;
+  border-top: 5px solid var(--pink);
+}
 
 a{
   color:var(--tan);
@@ -42,6 +51,14 @@ a:hover{
   --bs-btn-bg: var(--pink);
   --bs-btn-border: none;
   --bs-btn-active-bg: var(--pink);
+}
+
+h4{
+  font-weight: normal;
+}
+
+ul li{
+ font-size:20px;
 }
 
 a.button{
